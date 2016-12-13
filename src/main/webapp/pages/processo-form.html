@@ -1,0 +1,16 @@
+<!-- partial-home.html -->
+
+<div class="jumbotron text-center">
+	<label>
+	Form
+	<input type="number" name="n1" ng-model="n1">
+	</label>
+	<label>
+	<input type="number" name="n2" ng-model="n2">
+	</label>
+	<h1>{{10*(n1+n1)}}</h1>
+    <a ui-sref=".list" class="btn btn-primary">List</a>
+    <a ui-sref=".paragraph" class="btn btn-danger">Paragraph</a>
+</div>
+
+<div ui-view></div>
