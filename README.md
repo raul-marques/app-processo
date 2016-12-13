@@ -1,4 +1,4 @@
-# app-processo
+app-processo
 ==============================================
 
 Tecnologias requeridas: 
